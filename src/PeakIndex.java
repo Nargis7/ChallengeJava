@@ -5,7 +5,6 @@ public class PeakIndex {
         int peakIdx = index(arr);
         System.out.println("Peak index: " + peakIdx);       // Output: 3
         System.out.println("Peak value: " + arr[peakIdx]);   // Output: 6
-
     }
     public  static int index(int[] arr){
         int start = 1;
